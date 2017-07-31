@@ -1,0 +1,9 @@
+Name spacing does for functions and classes what scope does for variables. It allows you to use the same function or class name in different parts of the same program without causing a name collision.
+
+In simple terms, think of a namespace as a person's surname. If there are two people named "Jay" you can use their surnames to tell them apart.
+
+
+No Namespaces?
+
+If we didn't have namespaces we'd have to (potentially) change a lot of code any time we added a library, or come up with tedious prefixes to make our function names unique. With namespaces, we can avoid the headache of naming collisions when mixing third-party code with our own projects.
+
